@@ -13,6 +13,19 @@ body {
 
 /*********** Home Styles *************/
 
+.header-title {
+    font-family: 'Bungee Shade', cursive;
+    padding-left: 376px;
+    color: white;
+    position: fixed;
+    text-align: center;
+}
+
+.header-title:hover {
+    
+    transition: opacity 2s ease-in-out;
+    opacity: 0;
+}
 .main-nav {
     top: 0px;
 }
@@ -54,4 +67,74 @@ body {
     padding-bottom: 50px;
     margin-left: 18%;
     display: inline-block;
+}
+
+footer {
+    border: 2px solid rgb(193, 92, 211);
+    height: 100px;
+    width: 101%;
+    text-align: center;
+}
+
+.container-footer {
+    margin-top: 1%;
+}
+
+.social-links {
+    text-decoration: none;
+}
+
+.social-links > .fa {
+    color: white;
+    font-size: 50px;
+}
+
+.social-links > .fa:hover {
+    color: #fff;
+}
+
+.site-by {
+    color: white;
+    text-decoration: overline;
+    text-align: center;
+    margin-top: .05%;
+}
+
+/***************Contact Styles***************/
+
+.contact-title {
+    font-family: 'Bungee Shade', cursive;
+    padding-top: 30px;
+    padding-left: 435px;
+    color: white;
+    position: fixed;
+    text-align: center;
+}
+
+.contact-title:hover {
+    transition: opacity 2s ease-in-out;
+    opacity: 0;
+}
+
+/****************About Styles******************/
+
+.about-title {
+    font-family: 'Bungee Shade', cursive;
+    padding-top: 30px;
+    padding-left: 435px;
+    color: white;
+    position: fixed;
+    text-align: center;
+}
+
+.about-title:hover {
+    transition: opacity 2s ease-in-out;
+    opacity: 0;
+}
+
+.bio-text {
+    color: aliceblue;
+    width: 50%;
+    margin: 1%;
+    margin-left: 25%;
 }
