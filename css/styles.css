@@ -1,0 +1,57 @@
+html { 
+  background: url("../images/bg.jpg") repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+
+/*********** Home Styles *************/
+
+.main-nav {
+    top: 0px;
+}
+
+.container-nav {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 80px;
+}
+
+.nav-list {
+    float: right;
+    display: inline;
+    list-style: none;
+
+}
+
+.nav-item {
+    
+}
+
+.nav-link {
+    color: rgb(234,70,99);
+    text-decoration: blink;
+}
+
+.nav-link:hover {
+    color: rgb(244,241,244);
+}
+
+.chancelong {
+    padding-left: 10%;
+}
+.spotify {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 18%;
+    display: inline-block;
+}
